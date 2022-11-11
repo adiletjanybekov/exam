@@ -1,0 +1,94 @@
+@import "./fonts.css";
+/* BASE CONFIG */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 
+    'Source Serif Pro', Arial, Helvetica, sans-serif;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button {
+	background: none;
+	border: none;
+}
+/* BASE CONFIG */
+/* header_section */
+.container {
+	max-width: 1200px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.header__nav {
+    width: 1440px;
+    height: 90px;
+    display: flex;
+    padding-top: 33px;
+    max-width: 1200px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    text-align: end;
+}
+
+    
+/* header_section */
+/* hero section */
+.hero__image {
+    max-width: 1200px;
+}
+/* hero section */
+.third__grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 25px;
+	column-gap: 25px;
+}
+.title__first {
+    font-family: 'Libre Franklin';
+    max-width: 347px;
+    padding-top: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.title__second {
+    font-family: 'Tenor Sans';
+    max-width: 383px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    }
+.title__third {
+    font-family: 'Libre Franklin';
+    max-width: 353px;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.main__img {
+    display: inline-block;
+}
+
